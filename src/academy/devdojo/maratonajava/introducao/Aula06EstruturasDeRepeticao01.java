@@ -6,8 +6,10 @@ public class Aula06EstruturasDeRepeticao01 {
         int count = 0;
         while (count < 10){
             System.out.println(++ count);
+        }
 
-
+        for (int i=0;i<10; i++){
+            System.out.println("for "+ i);
         }
 
     }
