@@ -17,10 +17,10 @@ public class Aula08ArraysMultidimensionais02 {
 
         int[][] arrayInt3 = {{1, 2}, {1, 2, 3}, {1, 2, 3, 4, 5, 6}};
 
-        for (int[] arrayBase : arrayInt3) {
+        for (int[] i : arrayInt3) {
             System.out.println(" ");
-            for (int num : arrayBase) {
-                System.out.print(num + " ");
+            for (int j : i) {
+                System.out.print(j + " ");
             }
         }
     }

@@ -10,8 +10,8 @@ public class Aula07Arrays03 {
 
         //forma mais simple mas menos funcional pois n tem como acessar o indice
 
-        for (int num1 : num){
-            System.out.println(num1);
+        for (int i : num){
+            System.out.println(i);
 
         }
     }
