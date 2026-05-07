@@ -12,14 +12,14 @@ public class exec5 {
         String user = "";
         String password = "";
 
-        while(!user.equals("admin") && !password.equals("1234")){
+        while(!user.equals("admin") || !password.equals("1234")){
             System.out.print("Digite nome de usuario: ");
             user = scan.nextLine();
 
             System.out.print("Digite sua senha: ");
             password = scan.nextLine();
 
-            if (!user.equals("admin") && !password.equals("1234")){
+            if (!user.equals("admin") || !password.equals("1234")){
                 System.out.println("nome de usuario ou senha estao incorretos");
             }else{
                 System.out.println("acesso liberado");
