@@ -16,6 +16,7 @@ public class exec2 {
         }else {
             System.out.println(numero + " é zero");
         }
+        scan.close();
 
     }
 }
