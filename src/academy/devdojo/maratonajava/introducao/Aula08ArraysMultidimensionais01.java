@@ -23,10 +23,10 @@ public class Aula08ArraysMultidimensionais01 {
             System.out.println("-----------------------");
         }
 
-        for (int[] i: dias){
-            for (int j: i){
-                System.out.println(j);
-            }
-        }
+//        for (int[] i: dias){
+//            for (int j: i){
+//                System.out.println(j);
+//            }
+//        }
     }
 }
