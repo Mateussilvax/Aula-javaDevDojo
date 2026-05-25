@@ -17,4 +17,25 @@ public class Calculadora {
 
         return num1/num2;
     }
+
+    public void somaArray(int[] numeros){
+        int soma = 0;
+        for (int aux : numeros){
+            soma += aux;
+        }
+
+        System.out.println(soma);
+    }
+
+    public void somaVarArgs(int... numeros){
+        //nunca pode se passar outro argumento dps do varags mas pode passar antes
+
+        int soma = 0;
+        for (int aux : numeros){
+            soma += aux;
+        }
+
+        System.out.println(soma);
+    }
+
 }
