@@ -15,6 +15,7 @@ public class Funcionariotest1 {
         System.out.print("Digite idade: ");
         funcionario.idade = scan.nextInt();
 
+        funcionario.salario = new double[3];
         for (int i = 0; i < funcionario.salario.length; i++) {
             System.out.print("Digite salário "+(i+1)+": ");
             funcionario.salario[i] = scan.nextDouble();
@@ -23,5 +24,7 @@ public class Funcionariotest1 {
         funcionario.imprimeDados();
 
         funcionario.mediaSalario();
+
+        scan.close();
     }
 }

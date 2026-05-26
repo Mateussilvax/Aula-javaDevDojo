@@ -3,7 +3,7 @@ package academy.devdojo.maratonajava.Javacore.Bintroducaometodos.dominio;
 public class Funcionario {
     public String name;
     public int idade;
-    public double[] salario = new double[3];
+    public double[] salario;
 
     public void imprimeDados(){
         System.out.println("NOME: "+name);
