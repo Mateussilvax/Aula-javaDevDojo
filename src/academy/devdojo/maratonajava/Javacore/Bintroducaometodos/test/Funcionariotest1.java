@@ -10,16 +10,18 @@ public class Funcionariotest1 {
         Funcionario funcionario = new Funcionario();
 
         System.out.print("Digite nome: ");
-        funcionario.name = scan.nextLine();
+        funcionario.setName(scan.nextLine());;
 
         System.out.print("Digite idade: ");
-        funcionario.idade = scan.nextInt();
+        funcionario.setIdade(scan.nextInt());
 
-        funcionario.salario = new double[3];
-        for (int i = 0; i < funcionario.salario.length; i++) {
-            System.out.print("Digite salário "+(i+1)+": ");
-            funcionario.salario[i] = scan.nextDouble();
+        double[] salarios = new double[3];
+        for (int i = 0; i < salarios.length; i++) {
+            System.out.print("Digite salário " + (i + 1) + ": ");
+            salarios[i] = scan.nextDouble();
         }
+
+        funcionario.setSalario(salarios);
 
         funcionario.imprimeDados();
 
