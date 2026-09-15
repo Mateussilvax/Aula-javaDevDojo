@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.Exercicios;
+package academy.devdojo.maratonajava.Exercicios.ExecAlgoritimos;
 //4. Média de Matriz (Multidimensão)Imagine uma matriz 3 x 3 que representa as notas de 3 alunos em 3 disciplinas.
 // Preencha a matriz com notas.
 // Calcule e exiba a média aritmética de cada aluno (cada linha da matriz).

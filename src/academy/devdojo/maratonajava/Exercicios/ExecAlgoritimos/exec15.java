@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.Exercicios;
+package academy.devdojo.maratonajava.Exercicios.ExecAlgoritimos;
 //5. Tabuleiro de Busca
 // Crie uma matriz 2 x 2 de números inteiros.
 // Peça para o usuário digitar um número e o programa deve dizer se esse número existe dentro da matriz e em qual posição (linha e coluna) ele foi encontrado.

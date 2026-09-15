@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.Exercicios;
+package academy.devdojo.maratonajava.Exercicios.ExecAlgoritimos;
 import java.util.Scanner;
 public class exec7 {
     //7. Tabuada Dinâmica

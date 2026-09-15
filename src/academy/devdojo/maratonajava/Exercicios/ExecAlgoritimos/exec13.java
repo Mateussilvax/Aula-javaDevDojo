@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.Exercicios;
+package academy.devdojo.maratonajava.Exercicios.ExecAlgoritimos;
 //3. Inversor de Nomes
 //
 //Crie um array de Strings para armazenar 3 nomes.

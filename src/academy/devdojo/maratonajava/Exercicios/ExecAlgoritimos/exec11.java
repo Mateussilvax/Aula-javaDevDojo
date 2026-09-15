@@ -1,5 +1,4 @@
-package academy.devdojo.maratonajava.Exercicios;
-import java.sql.SQLOutput;
+package academy.devdojo.maratonajava.Exercicios.ExecAlgoritimos;
 import java.util.Scanner;
 public class exec11 {
   //1. O Somador de Vetores

@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.Exercicios;
+package academy.devdojo.maratonajava.Exercicios.ExecAlgoritimos;
 import java.util.Scanner;
 public class exec5 {
     //5. Simulador de Login Simples
