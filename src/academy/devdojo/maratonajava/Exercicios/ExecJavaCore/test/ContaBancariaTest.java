@@ -8,17 +8,11 @@ public class ContaBancariaTest {
 
         //define o titular da conta
         System.out.println("digite o nome do titular: ");
-        contaBancaria.setTitular((scanner.next()));
+        contaBancaria.setTitular((scanner.nextLine()));
 
         //definir valor para deposito
         System.out.print("Informe o saldo que deseja depositar: ");
         double valorDeposito = (scanner.nextDouble());
-
-        //verifica valor inserido
-        if (valorDeposito <= 0) {
-            System.out.println("valor inválido");
-            return;
-        }
 
         contaBancaria.depositar(valorDeposito);
 
@@ -26,12 +20,6 @@ public class ContaBancariaTest {
         //definir qual o valor a ser sacado
         System.out.print("Informe o saldo que deseja sacar: ");
         double valorSaque = (scanner.nextDouble());
-
-        //verifica se o valor inserido
-        if (valorSaque < 0 ){
-            System.out.println("valor invalido");
-            return;
-        }
 
         contaBancaria.sacar(valorSaque);
     }

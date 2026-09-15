@@ -23,6 +23,11 @@ public class ContaBancaria {
     }
 
     public void depositar(double valor){
+        //verifica valor inserido
+        if (valor <= 0) {
+            System.out.println("valor inválido");
+            return;
+        }
 
         this.saldo += valor;
         //retorna informaçoes do deposito
@@ -32,17 +37,20 @@ public class ContaBancaria {
         System.out.println(getTitular());
         System.out.println("valor depositado: "+ valor);
         System.out.println("===================================");
-
     }
 
     public void sacar(double valor){
+        //verifica se o valor inserido
+        if (valor <= 0 ){
+            System.out.println("valor invalido");
+            return;
+        }
         if (valor > this.saldo){
             System.out.println("Saldo insuficiente");
             return;
         }
 
         this.saldo -= valor;
-
         //retorna informaçoes do saque
         System.out.println("===================================");
         System.out.println("valor sacado com sucesso na conta: ");
@@ -50,8 +58,5 @@ public class ContaBancaria {
         System.out.println(getTitular());
         System.out.println("valor sacado: "+ valor);
         System.out.println("===================================");
-
-
-
     }
 }
