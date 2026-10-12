@@ -31,8 +31,6 @@ public class Anime {
 
 
 
-
-
     public String getNome() {
         return nome;
     }
